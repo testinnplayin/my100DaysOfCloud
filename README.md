@@ -14,13 +14,13 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Testinnplayin's Cloud Journey
 
-[✍️ Introduce yourself]
+I am testinnplayin: a back-end developer who is interested more and more in site reliability engineering and the cloud. I like the idea of mixing cloud and IoT and am very keen on these kinds of projects. I have never worked with either however.
 
-[✍️ Tell us why you started this challenge]
+I have very little experience in the cloud and would like to learn more. I need to start from the basics even though I have worked a bit on GCP in previous work experiences. This is a good opportunity to do so.
 
-[✍️ Tell us where you want to be at the end of the challenge]
+My goal with doing this is to at least have the basics down pat on one of the (or all of the) big three. I do want to be able to practice this on other cloud providers as well, since in countries outside of the US people are becoming keener to use more local options.
 
 - [✍️ Link to your Twitter](https://twitter.com/username)
 - [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
