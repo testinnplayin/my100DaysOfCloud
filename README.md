@@ -28,7 +28,7 @@ My goal with doing this is to at least have the basics down pat on one of the (o
 ## Stepping out the door
 
 - [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
+- [ ] ☁️ 2 > [My Second Day](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
