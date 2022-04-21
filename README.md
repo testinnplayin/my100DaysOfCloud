@@ -33,7 +33,7 @@ My goal with doing this is to at least have the basics down pat on one of the (o
 - [ ] ☁️ 4 > [My Fourth Day](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [My Fifth Day](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [My Sixth Day](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
+- [ ] ☁️ 7 > [My Seventh Day](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
