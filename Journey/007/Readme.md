@@ -1,52 +1,28 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# Start of my serverless journey
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I really like IoT and I really like the cloud. I really, really like the idea of mixing IoT and the cloud.
 
-## Prerequisite
+Even though it's not absolutely necessary to use the cloud or serverless for IoT, I like the idea of having a first layer where IoT devices would talk to a cloud via an edge location, say, for data collection and early processing for example.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Let's say that your company is based in Paris but you have automated greenhouses out in a far away corner of the Île-de-France. You might want to have data collected and treated in an edge location as much as possible. Severless makes this possible, whereas it would be quite a bit harder if you have to place your infrastructure near the greenhouses.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- Here we're starting with a simple adder function. All it does is take a number and another number from an event and add the two numbers together. I went with an idiot simple version where I didn't even check if the inputs were numbers. If I were truly coding something like that, I'd probably have some way of making sure the two inputs are numbers.
+- I didn't read the documentation and just played around with the editor a bit. I didn't even code in the Cloud9 IDE I had made. Instead, I just coded the function and tested it directly in the Lambda console.
+- Other than not realizing at first that changes made to the code are not saved automatically, this was a fairly simple thing to get up and running.
+- I didn't even have to do much with logging. It was already set up with CloudWatch!
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- I have to ensure saving every time I make a change to the code. I also have to be sure to save tests for reuse.
+- Eventually, it would be good to do a more complex function that is hooked up to real events just to see how it works. That might be harder to set up with no big project in place. I'll have to think of something.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+The same but with a Docker image instead. The Lambda function is inside a Docker image.
 
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
