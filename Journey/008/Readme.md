@@ -1,52 +1,21 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# Continuation of serverless journey - running lambda functions in a Docker image (Part 1)
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I am doing this because I think it's pretty common to put lambda functions inside of a Docker image, like a Node image or Node-alpine image.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
+I am only filing a short report on this today because I'm doing something that does not have a project idea in the #100DaysOfCloud ideas part and I'm documenting what I'm doing in order to perhaps create an issue/PR for it. As such, I didn't finish and now am out of time for the day to work on this.
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- So far I had to add some new permissions to my IAM user that I am using. These permissions allow my IAM user to get and update repos on ECR. They also allow my IAM user to manipulate images on ECR.
+- I then created a local project that contains the adder function used in day 7. My version is a Node.js version.
+- As a result of this, I had to create a new Dockerfile. I just used a template from the Amazon docs and added a port exposure to it.
+- I built the image with Docker and ran it locally. I also tested it with a curl.
+- Now I have to push it to ECR and do the rest of the set-up.
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- I will finish this project tomorrow.
+- I will look at some more lambda-related projects or start on Kubernetes deployments in aws.
